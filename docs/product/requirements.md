@@ -24,6 +24,17 @@ V1 is split into:
 - simple fuel tracking
 - initial dashboard
 
+V1 Alpha must support the minimum user journey from first access to a useful initial dashboard:
+
+1. First access.
+2. Signup or login.
+3. First vehicle registration.
+4. Initial maintenance plan generation.
+5. Simple fuel record creation.
+6. Initial dashboard view.
+
+Detailed V1 Alpha user journeys are documented in `docs/product/user-journeys.md`.
+
 #### V1 Beta
 
 - complete mobile flows
@@ -55,16 +66,21 @@ As a driver, I want to create an account and sign in, so that my vehicles and re
 FR-002: Vehicle registration
 As a driver, I want to register one or more vehicles, so that Mobicare can track maintenance and costs per vehicle.
 
-Required vehicle fields:
+V1 Alpha required vehicle fields:
 
 - make
 - model
 - year
+- current mileage
+- fuel type
+
+V1 Alpha optional vehicle fields:
+
 - version
 - engine
-- fuel type
-- current mileage
-- plate, preferably optional in MVP
+- plate
+
+The data model may support optional version, engine, and plate fields, but the V1 Alpha vehicle registration flow must not block users who do not know these details.
 
 FR-003: Main vehicle
 As a driver with multiple vehicles, I want to choose a main vehicle, so that the dashboard starts with the most relevant car.
@@ -79,6 +95,8 @@ The plan should consider:
 - vehicle characteristics
 - confidence level of the recommendation
 - source or rule used when available
+
+For V1 Alpha, the initial maintenance plan must be based on deterministic rules. When maintenance history is missing, the app must use honest copy and avoid false precision. The plan should communicate that recommendations are an initial estimate based on available vehicle data and may need user review.
 
 FR-005: Maintenance alerts
 As a driver, I want to receive alerts before a maintenance deadline, so that I can act before the item is overdue.
