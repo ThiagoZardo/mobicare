@@ -56,6 +56,55 @@ Initial issues created manually:
 - [Epic] Product Definition And MVP
 - [Story] Define V1 MVP Scope
 
+## Current GitHub Project Status
+
+Project: Mobicare Roadmap
+
+Created views:
+
+- V1 Stories
+- V1 Epics
+- V1 Board
+
+### V1 Epics Created
+
+- #1 [Epic] Product Definition And MVP
+- #3 [Epic] App Foundation
+- #4 [Epic] Backend Foundation
+- #5 [Epic] Authentication
+- #6 [Epic] Vehicle Management
+- #7 [Epic] Maintenance
+- #8 [Epic] Costs And Fuel
+- #9 [Epic] Media Uploads
+- #10 [Epic] Notifications
+- #11 [Epic] Dashboard And Insights
+
+### V1 Stories Created
+
+- #2 [Story] Define V1 MVP Scope
+- #12 [Story] Define User Journeys
+- #13 [Story] Create React Native Project
+- #14 [Story] Create Initial App Screens
+- #15 [Story] Create Node.js API
+- #16 [Story] Configure Database
+- #17 [Story] User Signup
+- #18 [Story] User Login
+- #19 [Story] Register Vehicle
+- #20 [Story] Main Vehicle
+- #21 [Story] Record Mileage Updates
+- #22 [Story] Initial Maintenance Plan
+- #23 [Story] Maintenance Alerts
+- #24 [Story] Maintenance History
+- #25 [Story] Fuel Records
+- #26 [Story] General Costs
+- #27 [Story] Receipt Upload
+- #28 [Story] Push Notifications
+- #29 [Story] Main Vehicle Dashboard
+- #30 [Story] Financial Summary
+- #31 [Story] Consumption Summary
+
+All V1 story issues listed above have been added to the Mobicare Roadmap project.
+
 ## V1 Epic Creation Order
 
 Create V1 epics in this order:
